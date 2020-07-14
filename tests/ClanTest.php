@@ -9,7 +9,7 @@ class ClanTest extends TestCase
      */
     public function testGetListClan()
     {
-        $this->get('/api/v1/clans');
+        $this->get('/api/v1/misaki/clans');
 
         $this->assertResponseOk();
     }
